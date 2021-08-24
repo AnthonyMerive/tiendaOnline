@@ -1,154 +1,154 @@
 {
-  "playstation": [
-    {
-      "id": 1,
-      "name": "Assassin's Creed: Valhala",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/assassins-creed-val.png",
-      "prize": 62000
-    },
-    {
-      "id": 2,
-      "name": "Call of Duty: Cold War",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/COD-coldWar.png",
-      "prize": 48000
-    },
-    {
-      "id": 3,
-      "name": "Farcry 6 Ultimate",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/farcry6.png",
-      "prize": 80000
-    },
-    {
-      "id": 4,
-      "name": "Final Fantasy VII: Remake",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/ffvii-remake.png",
-      "prize": 75000
-    },
-    {
-      "name": "Mortal Kombat 11",
-      "prize": "46000",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/mk-11.png",
-      "id": 5
-    },
-    {
-      "id": 6,
-      "name": "Rainbow Six Ciege: Extraction",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/rainbowsix-extr.png",
-      "prize": 68000
-    }
-  ],
-  "xbox": [
-    {
-      "id": 1,
-      "name": "Battlefield: 2042",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/battlefield-2042.png",
-      "prize": 75000
-    },
-    {
-      "id": 2,
-      "name": "Formula 1: 2021",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/f1-2021.png",
-      "prize": 43000
-    },
-    {
-      "id": 3,
-      "name": "Forza Horizon 5",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/forza-horizon-5.png",
-      "prize": 62000
-    },
-    {
-      "id": 4,
-      "name": "Halo infinity",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/halo-infinity.png",
-      "prize": 79000
-    },
-    {
-      "id": 5,
-      "name": "Metro Exodus",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/metro-exodus.png",
-      "prize": 48000
-    },
-    {
-      "id": 6,
-      "name": "Resident Evil VIII",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/RE-VIII.png",
-      "prize": 75000
-    }
-  ],
-  "nintendo": [
-    {
-      "id": 1,
-      "name": "Animal Crossing switch",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/animal-crossing.png",
-      "prize": 42000
-    },
-    {
-      "id": 2,
-      "name": "Mario Kart 8 Deluxe",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/mario-kart.png",
-      "prize": 48000
-    },
-    {
-      "id": 3,
-      "name": "Super Mario Odissey",
-      "image": "https://github.com/AnthonyMerive/netnet/blob/main/images/switch/mario-odissey.png?raw=true",
-      "prize": 55000
-    },
-    {
-      "id": 4,
-      "name": "Pokemon Sword Edition",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/pokemon-sword.png",
-      "prize": 40000
-    },
-    {
-      "id": 5,
-      "name": "Super Smash Bros Ultimate",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/super-smash-ultimate.png",
-      "prize": 70000
-    },
-    {
-      "id": 6,
-      "name": "Zelda Breath of the Wild",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/zelda-breath.png",
-      "prize": 68000
-    }
-  ],
-  "consolas": [
-    {
-      "id": 1,
-      "name": "PlayStation 5",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/ps5.png",
-      "prize": 4500000
-    },
-    {
-      "id": 2,
-      "name": "Xbox Series X",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/xboxsx.png",
-      "prize": 3500000
-    },
-    {
-      "id": 3,
-      "name": "Nintendo Switch",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/switch.png",
-      "prize": 1500000
-    },
-    {
-      "id": 4,
-      "name": "PlayStation 4",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/ps4.png",
-      "prize": 3000000
-    },
-    {
-      "id": 5,
-      "name": "Xbox One",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/xboxone.png",
-      "prize": 2800000
-    },
-    {
-      "id": 6,
-      "name": "Retro Box",
-      "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/retrobox.png",
-      "prize": 600000
-    }
-  ]
+    "playstation": [
+        {
+            "id": 1,
+            "name": "Assassin's Creed: Valhala",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/assassins-creed-val.png",
+            "prize": 62000
+        },
+        {
+            "id": 2,
+            "name": "Call of Duty: Cold War",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/COD-coldWar.png",
+            "prize": 48000
+        },
+        {
+            "id": 3,
+            "name": "Farcry 6 Ultimate",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/farcry6.png",
+            "prize": 80000
+        },
+        {
+            "id": 4,
+            "name": "Final Fantasy VII: Remake",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/ffvii-remake.png",
+            "prize": 75000
+        },
+        {
+            "name": "Mortal Kombat 11",
+            "prize": "46000",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/mk-11.png",
+            "id": 5
+        },
+        {
+            "id": 6,
+            "name": "Rainbow Six Ciege: Extraction",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/ps5/rainbowsix-extr.png",
+            "prize": 68000
+        }
+    ],
+    "xbox": [
+        {
+            "id": 1,
+            "name": "Battlefield: 2042",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/battlefield-2042.png",
+            "prize": 75000
+        },
+        {
+            "id": 2,
+            "name": "Formula 1: 2021",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/f1-2021.png",
+            "prize": 43000
+        },
+        {
+            "id": 3,
+            "name": "Forza Horizon 5",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/forza-horizon-5.png",
+            "prize": 62000
+        },
+        {
+            "id": 4,
+            "name": "Halo infinity",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/halo-infinity.png",
+            "prize": 79000
+        },
+        {
+            "id": 5,
+            "name": "Metro Exodus",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/metro-exodus.png",
+            "prize": 48000
+        },
+        {
+            "id": 6,
+            "name": "Resident Evil VIII",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/xbox/RE-VIII.png",
+            "prize": 75000
+        }
+    ],
+    "nintendo": [
+        {
+            "id": 1,
+            "name": "Animal Crossing switch",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/animal-crossing.png",
+            "prize": 42000
+        },
+        {
+            "id": 2,
+            "name": "Mario Kart 8 Deluxe",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/mario-kart.png",
+            "prize": 48000
+        },
+        {
+            "id": 3,
+            "name": "Super Mario Odissey",
+            "image": "https://github.com/AnthonyMerive/netnet/blob/main/images/switch/mario-odissey.png?raw=true",
+            "prize": 55000
+        },
+        {
+            "id": 4,
+            "name": "Pokemon Sword Edition",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/pokemon-sword.png",
+            "prize": 40000
+        },
+        {
+            "id": 5,
+            "name": "Super Smash Bros Ultimate",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/super-smash-ultimate.png",
+            "prize": 70000
+        },
+        {
+            "id": 6,
+            "name": "Zelda Breath of the Wild",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/switch/zelda-breath.png",
+            "prize": 68000
+        }
+    ],
+    "consolas": [
+        {
+            "id": 1,
+            "name": "PlayStation 5",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/ps5.png",
+            "prize": 4500000
+        },
+        {
+            "id": 2,
+            "name": "Xbox Series X",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/xboxsx.png",
+            "prize": 3500000
+        },
+        {
+            "id": 3,
+            "name": "Nintendo Switch",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/switch.png",
+            "prize": 1500000
+        },
+        {
+            "id": 4,
+            "name": "PlayStation 4",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/ps4.png",
+            "prize": 3000000
+        },
+        {
+            "id": 5,
+            "name": "Xbox One",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/xboxone.png",
+            "prize": 2800000
+        },
+        {
+            "id": 6,
+            "name": "Retro Box",
+            "image": "https://raw.githubusercontent.com/AnthonyMerive/netnet/main/images/consolas/retrobox.png",
+            "prize": 600000
+        }
+    ]
 }
