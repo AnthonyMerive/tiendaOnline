@@ -1,29 +1,29 @@
-.encabezado{
+.encabezado {
     z-index: 1;
 }
 
-.logosheader{
+.logosheader {
     display: none;
 }
 
-.carousel-inner{
-    text-shadow: 2px 2px 2px  black;
+.carousel-inner {
+    text-shadow: 2px 2px 2px black;
     border-radius: 150px;
-    border:1px solid black;
+    border: 1px solid black;
 }
 
-.titulos{
-    margin:50px 0 30px 60px;
+.titulos {
+    margin: 50px 0 30px 60px;
     display: flex;
 }
 
-.container{
-    align-items: center ;
+.container {
+    align-items: center;
     margin-top: 20px;
     margin-left: 5%;
 }
 
-.card{
+.card {
     background-color: rgb(236, 236, 236);
     width: 300px;
     display: flex;
@@ -33,71 +33,71 @@
 }
 
 
-.card:hover{
+.card:hover {
     transform: scale(1.03);
 }
 
-.card a{
-    box-shadow: 2px 2px  black;
+.card a {
+    box-shadow: 2px 2px black;
 }
 
-.btn:hover{
+.btn:hover {
     transform: scale(1.09);
     background-color: rgb(155, 153, 153);
 }
 
-#image{
+#image {
     max-width: 100%;
     width: 200px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top:10px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
-.row{
-    text-align:center;
+.row {
+    text-align: center;
     font-size: auto;
 }
 
-#items .card img{
+#items .card img {
     height: 150px;
-    
+
 }
 
-.piePag{
+.piePag {
     background-color: rgb(241, 242, 243);
-    padding:20px;
+    padding: 20px;
     text-align: right;
 }
 
-.piePag strong{
+.piePag strong {
     color: rgb(17, 91, 177);
 }
 
-#aumenta{
-    padding:0 5px;
+#aumenta {
+    padding: 0 5px;
 }
 
-#disminuye{
-    padding:0 5px;
+#disminuye {
+    padding: 0 5px;
 }
 
 /*agregando estilo para que no se vea vacia la navbar y se ajuste el tamaño de las cards en pantalla completa*/
 
-@media (min-width: 1024px){
-  
-    .logosheader{
-       display: inline-flex;
-       margin-right: 10px;
-    } 
+@media (min-width: 1024px) {
 
-    .logosheader img{
+    .logosheader {
+        display: inline-flex;
+        margin-right: 10px;
+    }
+
+    .logosheader img {
         margin-left: 10px;
     }
 
-    .card{
+    .card {
         width: 250px;
         display: flex;
         margin-left: auto;
@@ -107,18 +107,19 @@
     }
 }
 
-@media (min-width: 1200px){ /*escritorio*/
+@media (min-width: 1200px) {
+    /*escritorio*/
 
-    .logosheader{
-       display: inline-flex;
-       margin-right: 10px;
-    } 
+    .logosheader {
+        display: inline-flex;
+        margin-right: 10px;
+    }
 
-    .logosheader img{
+    .logosheader img {
         margin-left: 10px;
     }
 
-    .card{
+    .card {
         width: 180px;
         display: flex;
         margin-left: 10px;
@@ -128,3 +129,23 @@
     }
 }
 
+.campo {
+    width: 90%;
+    margin: auto;
+}
+
+#image{
+    width: 100%;
+    margin: auto;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 150px;
+    margin:10px;
+}
