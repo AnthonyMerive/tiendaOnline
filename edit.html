@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ADMINISTRADOR</title>
+</head>
+
+<body class="contenedor">
+
+    <!--encabezado-->
+    <header class="encabezado container-fuid position-sticky top-0">
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/navbar.jpg" width="80px" alt="#"
+                        srcset=""><strong>ADMINISTRADOR</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="mainReturn" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logosheader">
+                <img src="./images/ps5/ps5logo.png" alt="">
+                <img src="./images/xbox/xboxlogo.png" alt="">
+                <img src="./images/switch/switchlogo.png" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <!--contenido-->
+
+    <form id="formulario">
+        <div class="campo">
+            <label for="categorie" class="form-label body1Regular label-edit">Seleccione Categoria</label>
+        <select id="categorie" class="form-select" aria-label="Default select example">
+            <option value="playstation">Playstation</option>
+            <option value="xbox">Xbox</option>
+            <option value="nintendo">Nintendo</option>
+            <option value="consolas">Consolas</option>
+        </select>
+        </div>
+        <div class="campo">
+            <label for="name" class="form-label body1Regular label-edit">Titulo</label>
+            <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+        </div>
+        <div class="campo">
+            <label for="prize" class="form-label body1Regular label-edit">Precio</label>
+            <input id="prize" name="prize" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+        </div>
+        <div class="campo">
+            <label for="image" class="form-label body1Regular label-edit">Imagen</label>
+            <input id="image" name="image" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+        </div>
+        <div class="campo">
+            <label id="label-edit" for="id" class="form-label body1Regular label-edit">Id</label>
+            <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder="" readonly>
+        </div>
+        <div class="">
+            <button id="btnGuardar" type="submit" class="btn btn-secondary buttom guardar-cambios">Guardar</button>
+        </div>
+        <div class="">
+            <button id="btnBuscar" type="button" class="btn btn-secondary buttom guardar-cambios">Buscar por
+                titulo</button>
+        </div>
+        <div class="">
+            <button id="btnEditar" type="button" class="btn btn-secondary buttom guardar-cambios">Editar</button>
+        </div>
+        <div class="">
+            <button id="btnEliminar" type="button" class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
+        </div>
+    </form>
+
+    <!--Footer-->
+
+    <footer class="piePag">
+        <p>© Todos los derechos reservados <strong>GitHub:AnthonyMerive, IdiazJ06</strong></p>
+    </footer>
+
+    <script src="./scripts/edit.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+.encabezado{
+    z-index: 1;
+}
+
+.logosheader{
+    display: none;
+}
+
+.carousel-inner{
+    text-shadow: 2px 2px 2px  black;
+    border-radius: 150px;
+    border:1px solid black;
+}
+
+.titulos{
+    margin:50px 0 30px 60px;
+    display: flex;
+}
+
+.container{
+    align-items: center ;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.card{
+    background-color: rgb(236, 236, 236);
+    width: 300px;
+    display: flex;
+    margin: 0 0 20px 50px;
+    padding-bottom: 20px;
+    box-shadow: 2px 4px 5px black;
+}
+
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.card a{
+    box-shadow: 2px 2px  black;
+}
+
+.btn:hover{
+    transform: scale(1.09);
+    background-color: rgb(155, 153, 153);
+}
+
+#image{
+    max-width: 100%;
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+.row{
+    text-align:center;
+    font-size: auto;
+}
+
+#items .card img{
+    height: 150px;
+    
+}
+
+.piePag{
+    background-color: rgb(241, 242, 243);
+    padding:20px;
+    text-align: right;
+}
+
+.piePag strong{
+    color: rgb(17, 91, 177);
+}
+
+#aumenta{
+    padding:0 5px;
+}
+
+#disminuye{
+    padding:0 5px;
+}
+
+/*agregando estilo para que no se vea vacia la navbar y se ajuste el tamaño de las cards en pantalla completa*/
+
+@media (min-width: 1024px){
+  
+    .logosheader{
+       display: inline-flex;
+       margin-right: 10px;
+    } 
+
+    .logosheader img{
+        margin-left: 10px;
+    }
+
+    .card{
+        width: 250px;
+        display: flex;
+        margin-left: auto;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        box-shadow: 2px 4px 5px black;
+    }
+}
+
+@media (min-width: 1200px){ /*escritorio*/
+
+    .logosheader{
+       display: inline-flex;
+       margin-right: 10px;
+    } 
+
+    .logosheader img{
+        margin-left: 10px;
+    }
+
+    .card{
+        width: 180px;
+        display: flex;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        box-shadow: 2px 4px 5px black;
+    }
+}
+
